@@ -6,7 +6,7 @@ import Contact from './components/Contact';
 import Header from './components/Header';
 import Navigation from './components/Navigation';
 import Portfolio from './components/Portfolio';
-import Project from './components/Project';
+import Projects from './components/Projects';
 import Resume from './components/Resume';
 import Home from './components/Home';
 
@@ -18,7 +18,7 @@ function App() {
     //<Header />,
     //<Navigation />,
     //<Portfolio />,
-    //<Project />,
+    //<Projects />,
     //<Resume />
   );
 }
