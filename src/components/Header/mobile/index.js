@@ -1,12 +1,11 @@
 import React from 'react';
 
-function About() {
+function Mobile() {
     return (
         <div>
-            This is About
+            This is mobile
         </div>
     )
 }
 
-export default About;
-
+export default Mobile;

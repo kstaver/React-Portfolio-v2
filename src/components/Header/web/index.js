@@ -1,12 +1,11 @@
 import React from 'react';
 
-function About() {
+function Web() {
     return (
         <div>
-            This is About
+            
         </div>
     )
 }
 
-export default About;
-
+export default Web;

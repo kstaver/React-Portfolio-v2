@@ -1,9 +1,24 @@
-import React from 'react';
+import React, { useState } from 'react';
+import "./header.css";
+import Mobile from './mobile/index';
+import Web from './web/index';
 
 function Header() {
+    const [isOpen, setIsOpen]= useState(false);
     return (
-        <div>
-            
+        <div className="header">
+            <div className="logo">Kendra</div>
+            <div className="nav">
+                <div className="web-nav">
+                    <Web />
+                </div>
+                <div className="mobile-menu">
+                    <div onClick={() => setIsOpen(!isOpen)}>
+                    <img src={process.env.PUBLIC_URL + '/images/category.png'} alt="icon"/>
+                    </div>
+                    {isOpen && <Mobile />}
+                </div>
+            </div>
         </div>
     )
 }
