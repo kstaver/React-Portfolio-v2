@@ -10,14 +10,14 @@ function ProjectCard(project) {
                     {project.demo&& (
                         <a className='project-link' href={project.demo}>
                             <div className='link-button'>
-                            <img src={require(process.env.PUBLIC_URL + "../../assets/images/demo-icon-2.png").default} className="demo-icon" alt="demo" />
+                                <img src={(process.env.PUBLIC_URL + "/images/demo-icon-2.png").default} className="demo" alt="icon" />
                             </div>
                         </a>
                     )}
                     {project.github&&(
                         <a className='project-link' href={project.github}>
                             <div className='link-button'>
-                            <img src={require(process.env.PUBLIC_URL + "../../assets/images/github-icon-2.png").default} className="small-github" alt="small github" />
+                            <img src={(process.env.PUBLIC_URL + "/images/github-icon-2.png").default} className="small-github" alt="icon" />
                             </div>
                         </a>
                     )}
@@ -32,9 +32,9 @@ function ProjectCard(project) {
                 </div>
             </div>
             <img src={project.image} className='project-photo' />
-            
         </div>
     )
 }
 
 export default ProjectCard;
+

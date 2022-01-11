@@ -1,12 +1,12 @@
 export const SocialData=[
     {
         platform:"Github",
-        icon: require("../../assets/icon/github-icon.png").default,
-        link:"https://github.com/kstaver",
+        icon: "/images/icons8-github-32.png",
+        link:"https://github.com/kstaver"
     },
     {
         platform:"LinkedIn",
-        icon: require('../../assets/icon/linkedin-icon.png').default,
+        icon: "/images/icons8-linkedin-32.png",
         link:"https://www.linkedin.com/in/kendra-staver/",
     },
 ];
