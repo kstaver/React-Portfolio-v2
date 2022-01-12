@@ -15,15 +15,6 @@ function Home() {
                 <About />
             </div>
             <div>
-                This is projects??
-            </div>
-            <div>
-                This is skills??
-            </div>
-            <div>
-                This is work??
-            </div>
-            <div>
                 <Footer />
             </div>
         </div>
