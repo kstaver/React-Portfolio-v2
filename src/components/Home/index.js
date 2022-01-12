@@ -1,5 +1,7 @@
 import React from 'react';
 import About from '../Body/About';
+import Projects from '../Body/Projects';
+
 import Footer from '../Footer';
 import Header from '../Header';
 import './home.css';
@@ -11,9 +13,8 @@ function Home() {
                 <Header />
             </div>
             <div>
-                <About />
+                <About />,
             </div>
-
             <div>
                 <Footer />
             </div>
