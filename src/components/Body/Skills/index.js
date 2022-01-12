@@ -1,9 +1,14 @@
 import React from 'react';
+import Separator from '../../commons/separator';
 
 function Skills() {
     return (
         <div>
-            This is skills
+            <Separator />
+            <label className='section-title'>Skills</label>
+            <div>
+                
+            </div>
         </div>
     )
 }
