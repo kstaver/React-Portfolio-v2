@@ -1,6 +1,5 @@
 import React from 'react';
 import About from '../Body/About';
-import Projects from '../Body/Projects';
 
 import Footer from '../Footer';
 import Header from '../Header';
@@ -13,7 +12,16 @@ function Home() {
                 <Header />
             </div>
             <div>
-                <About />,
+                <About />
+            </div>
+            <div>
+                This is projects??
+            </div>
+            <div>
+                This is skills??
+            </div>
+            <div>
+                This is work??
             </div>
             <div>
                 <Footer />
