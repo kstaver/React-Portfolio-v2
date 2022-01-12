@@ -10,14 +10,14 @@ function ProjectCard(project) {
                     {project.demo&& (
                         <a className='project-link' href={project.demo}>
                             <div className='link-button'>
-                                <img src={(process.env.PUBLIC_URL + "/images/demo-icon-2.png").default} className="demo" alt="icon" />
+                                <img src={(process.env.PUBLIC_URL + "/images/demo-icon-2.png").default} className="demo" alt="icon" />demo
                             </div>
                         </a>
                     )}
                     {project.github&&(
                         <a className='project-link' href={project.github}>
                             <div className='link-button'>
-                            <img src={(process.env.PUBLIC_URL + "/images/github-icon-2.png").default} className="small-github" alt="icon" />
+                            <img src={(process.env.PUBLIC_URL + "/images/github-icon-2.png").default} className="small-github" alt="icon" /> github
                             </div>
                         </a>
                     )}

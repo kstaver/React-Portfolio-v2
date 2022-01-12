@@ -14,6 +14,7 @@ function Home() {
             <div>
                 <About />
             </div>
+
             <div>
                 <Footer />
             </div>
