@@ -1,6 +1,12 @@
 .header{
     display: flex;
-    background-color: black;
+
+    background: hsla(266, 13%, 11%, 1);
+    background: radial-gradient(circle, hsla(266, 13%, 11%, 1) 0%, hsla(272, 91%, 18%, 1) 100%);
+    background: -moz-radial-gradient(circle, hsla(266, 13%, 11%, 1) 0%, hsla(272, 91%, 18%, 1) 100%); 
+    background: -webkit-radial-gradient(circle, hsla(266, 13%, 11%, 1) 0%, hsla(272, 91%, 18%, 1) 100%);
+    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#1B181F", endColorstr="#320459", GradientType=1 );
+    
     justify-content: space-between;
     flex: 1;
     padding: 12px;
@@ -9,8 +15,12 @@
 }
 
 .menu{
-    background-color: black;
-    display: flex;
+    background-color: black;background: hsla(266, 13%, 11%, 1);
+    background: radial-gradient(circle, hsla(266, 13%, 11%, 1) 0%, hsla(272, 91%, 18%, 1) 100%);
+    background: -moz-radial-gradient(circle, hsla(266, 13%, 11%, 1) 0%, hsla(272, 91%, 18%, 1) 100%);
+    background: -webkit-radial-gradient(circle, hsla(266, 13%, 11%, 1) 0%, hsla(272, 91%, 18%, 1) 100%);
+    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#1B181F", endColorstr="#320459", GradientType=1 );    display: flex;
+    
     flex: 1;
     justify-content: flex-end;
 }
@@ -20,7 +30,7 @@
 }
 
 .mobile-menu{
-    display: none;;
+    display: none;
 }
 
 .web-menu{
