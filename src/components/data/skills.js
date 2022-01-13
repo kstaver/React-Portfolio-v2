@@ -32,10 +32,6 @@ export const SkillsData=[
                 image: "/images/node-64.png",
             },
             {
-                name: "Express.js",
-                image: "/images/express-64.png",
-            },
-            {
                 name: "C++",
                 image: "/images/c++-64.png",
             },

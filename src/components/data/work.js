@@ -8,14 +8,6 @@ export const WorkData=[
         work: "fjkhsjfhjfwoie",
     },
     {
-        company:"Katerra",
-        designation:"Helpdesk Specialist",
-        dateJoined: "4-01-2018",
-        dateEnd: "7-15-2018",
-        companyLogo: "/images/katerra-logo.png",
-        work: "fjkhsjfhjfwoie",
-    },
-    {
         company:"Berkshire Hathaway Homestates Companies",
         designation:"Technical Support Specialist",
         dateJoined: "1-1-2017",
