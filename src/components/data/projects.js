@@ -16,5 +16,5 @@ export const ProjectData=[
         demo: "https://asecord92.github.io/brew-finder/",
         github: "https://github.com/asecord92/brew-finder",
         image: "/images/brewfinder.png"
-    },
+    }
 ];

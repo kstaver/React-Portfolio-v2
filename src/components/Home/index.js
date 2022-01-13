@@ -1,6 +1,5 @@
 import React from 'react';
-import About from '../Body/About';
-
+import Body from "../Body";
 import Footer from '../Footer';
 import Header from '../Header';
 import './home.css';
@@ -12,7 +11,7 @@ function Home() {
                 <Header />
             </div>
             <div>
-                <About />
+                <Body />
             </div>
             <div>
                 <Footer />

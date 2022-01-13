@@ -2,6 +2,8 @@ import React from 'react';
 import Separator from '../../commons/separator';
 import SocialContact from '../../commons/social-contact';
 import './contact.css'
+import resume from '../../../assets/Kendra Staver - Resume.docx';
+import downloadImage from "../../../assets/images/download-32.png";
 
 function Contact() {
     return ( 
@@ -14,9 +16,9 @@ function Contact() {
                     <SocialContact />
                 </div>
                 <div className='download'>
-                    <a download href={require('../../../assets/Kendra Staver - Resume.pdf').deafult}>
-                        <img src="/images/download-24.png" alt="download" />
-                        Download resume
+                   <a download href={resume}>
+                   <img src={downloadImage} className="picture-download" alt="download"/>
+                        Resume
                     </a>
                 </div>
             </div>

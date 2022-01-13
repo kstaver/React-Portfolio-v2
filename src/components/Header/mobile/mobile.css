@@ -1,5 +1,10 @@
 .mobile{
-    background-color: black;
+    background: hsla(266, 13%, 11%, 1);
+    background: radial-gradient(circle, hsla(266, 13%, 11%, 1) 0%, hsla(272, 91%, 18%, 1) 100%);
+    background: -moz-radial-gradient(circle, hsla(266, 13%, 11%, 1) 0%, hsla(272, 91%, 18%, 1) 100%);
+    background: -webkit-radial-gradient(circle, hsla(266, 13%, 11%, 1) 0%, hsla(272, 91%, 18%, 1) 100%);
+    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#1B181F", endColorstr="#320459", GradientType=1 );
+    
     height: 100vh;
     width: 60vw;
     position:absolute;
@@ -36,6 +41,6 @@
 
 .mobile-option a{
     text-decoration: none;
-    color:#B37EC8;
+    color:white;
     display: flex;
 }

@@ -13,11 +13,13 @@
 
 .project-info{
     margin-right: 24px;
+    color: white;
 }
 
 .project-title{
     font-size: 20px;
     font-weight: 600;
+    color: white;
 }
 
 .project-tags{
