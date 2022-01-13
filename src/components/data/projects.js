@@ -6,7 +6,7 @@ export const ProjectData=[
         tags: ["React, Node, Heroku, CSS, Javascript, HTML, MYSQL"],
         demo: "https://culinaryeats.herokuapp.com/",
         github: "https://github.com/kstaver/CulinaryEats",
-        image: "/images/culinary.png"
+        image: "https://culinaryeats.herokuapp.com/spiceworld.png"
     },
     {
         id: 2,
