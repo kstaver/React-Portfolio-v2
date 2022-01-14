@@ -2,11 +2,11 @@ export const ProjectData=[
     {
         id: 1,
         title: "Culinary Eats",
-        about: "Every time you try to look up a recipe online, you're met with the same thing. We're all tired of having to scroll through paragraph after paragraph of gold brick stories just to find a good way to prepare a nice sponge cake. Well, no more! Introducing: CulinaryEats! A brand new forum based website that enourages cooks of all seasoning to share their favorite recipes, without all of the mundane chatter-mag and foolery.",
+        about: "CulinaryEats is a forum based website that enourages cooks from all cultures to share their favorite recipes, without all of the mundane chatter-mag and foolery.",
         tags: ["React, Node, Heroku, CSS, Javascript, HTML, MYSQL"],
         demo: "https://culinaryeats.herokuapp.com/",
         github: "https://github.com/kstaver/CulinaryEats",
-        image: "https://culinaryeats.herokuapp.com/spiceworld.png"
+        image: "/images/culinary.png"
     },
     {
         id: 2,
@@ -16,5 +16,14 @@ export const ProjectData=[
         demo: "https://asecord92.github.io/brew-finder/",
         github: "https://github.com/asecord92/brew-finder",
         image: "/images/brewfinder.png"
+    },
+    {
+        id: 3,
+        title: "Pet Panel",
+        about: "Brew Finder is an application that allows you to search for a brewery by city. A short description and a location finder provides you with additional information about the brewery.",
+        tags: ["React, Node, Heroku, CSS, Javascript, HTML"],
+        demo: "https://project-pet-panel.herokuapp.com/",
+        github: "https://github.com/asecord92/pet-panel",
+        image: "/images/pet-panel.png"
     }
 ];

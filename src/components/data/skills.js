@@ -39,6 +39,10 @@ export const SkillsData=[
                 name: "Java",
                 image: "/images/java-64.png",
             },
+            {
+                name: "MongoDB",
+                image: "/images/mongodb-64.png"
+            }
         ]
     }
 ];
