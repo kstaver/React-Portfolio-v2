@@ -1,7 +1,5 @@
 import React from 'react';
 import './project-card.css';
-import githubIcon from '../../../assets/images/github-24.png';
-import demoIcon from '../../../assets/images/demo-icon-2.png';
 
 function ProjectCard(project) {
     return (
@@ -12,14 +10,14 @@ function ProjectCard(project) {
                     {project.demo&& (
                         <a className='project-link' href={project.project.demo}>
                             <div className='link-button'>
-                                <img src={demoIcon} className="demo" alt="icon" />demo
+                                <img src="/images/demo-icon-2.png" className="demo" alt="icon" />Demo
                             </div>
                         </a>
                     )}
                     {project.github&&(
                         <a className='project-link' href={project.project.github}>
                             <div className='link-button'>
-                            <img src={githubIcon} className="small-github" alt="icon" /> github
+                            <img src="/images/github-icon.png" className="small-github" alt="icon" /> Github
                             </div>
                         </a>
                     )}
