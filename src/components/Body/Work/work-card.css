@@ -7,6 +7,20 @@
     align-items: center;
     flex-direction: row-reverse;
 }
+.company-name{
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    color: white;
+    font-size: large;
+}
+
+.position{
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    color: white;
+}
 
 .work-logo{
     height: 80px;
@@ -20,7 +34,8 @@
 }
 
 .work-dates{
-    color:white;
+    color:blanchedalmond;
+    font-style: italic;
 }
 
 .work-description{

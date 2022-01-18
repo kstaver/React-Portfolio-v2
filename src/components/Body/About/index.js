@@ -9,7 +9,7 @@ function About() {
                 <div className="about-info">
                     Hello! 😺 My name is 
                     <br /><span className="info-name">Kendra Staver</span>.
-                    <br />It is nice to meet you! I am a multitalented Front End Developer. 
+                    <br />It is nice to meet you! I am a multitalented Front End Web Developer. 
                     I enjoy designing websites, solving problems, teaching, reading, 
                     and writing proofs.
                 </div>

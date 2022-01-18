@@ -3,7 +3,7 @@ import Separator from '../../commons/separator';
 import SocialContact from '../../commons/social-contact';
 import './contact.css'
 import resume from '../../../assets/Kendra Staver - Resume.docx';
-import downloadImage from "../../../assets/images/download-32.png";
+import downloadImage from "../../../assets/images/download-45.png";
 
 function Contact() {
     return ( 
@@ -17,8 +17,8 @@ function Contact() {
                 </div>
                 <div className='download'>
                    <a download href={resume}>
-                   <img src={downloadImage} className="picture-download" alt="download"/>
-                        Resume
+                   <img src={downloadImage} className="picture-download" alt="download"/> 
+                        Download Resume
                     </a>
                 </div>
             </div>
