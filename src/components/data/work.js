@@ -1,29 +1,5 @@
 export const WorkData=[
     {
-        company:"Univeristy of California, Berkeley Extension",
-        designation: "Full-Stack Web Developer Certifcation",
-        dateJoined:"8/1/2021",
-        dateEnd: "1/17/2022",
-        companyLogo: "/images/ucbe-logo.jpg",
-        work:"HTML, CSS, JavaScript, Git, APIs, Node.js, Express.js, SQL, NoSQL, ORM, MVC, PWA, React, and MERN"
-    },
-    {
-        company:"De Anza Community College",
-        designation: "Associate in Science for Computer Science",
-        dateJoined:"8/1/2019",
-        dateEnd: "12/11/2020",
-        companyLogo: "/images/de-anza.png",
-        work:"C++, Python, Java, Data Structures and Abstractions, and Assembly Language"
-    },
-    {
-        company:"University of California, Santa Cruz",
-        designation: "Bachelors of Arts for Mathematics (Pure)",
-        dateJoined:"9/20/2008",
-        dateEnd: "12/12/2013",
-        companyLogo: "/images/ucsc-logo.jpg",
-        work:"Minor in S.T.E.M. Education and CALTeach Internship"
-    },
-    {
         company:"Stanford",
         designation:"Technical Support Specialist 1",
         dateJoined: "1/1/2019",
