@@ -1,4 +1,4 @@
-.work-card{
+.education-card{
     padding: 8px;
     width: 45%;
     margin-top: 16px;
@@ -7,7 +7,7 @@
     align-items: center;
     flex-direction: row-reverse;
 }
-.company-name{
+.school-name{
     display: flex;
     align-items: flex-start;
     flex-direction: column;
@@ -15,30 +15,30 @@
     font-size: large;
 }
 
-.position{
+.degree-name{
     display: flex;
     align-items: flex-start;
     flex-direction: column;
     color: white;
 }
 
-.work-logo{
+.school-logo{
     height: 80px;
 }
 
-.work-info{
+.education-info{
     display: flex;
     align-items: flex-start;
     flex-direction: column;
     color: white;
 }
 
-.work-dates{
+.graduation-date{
     color:blanchedalmond;
     font-style: italic;
 }
 
-.work-description{
+.courses-taken{
     text-align: left;
     display: -webkit-box;
     -webkit-line-clamp: 2;
@@ -51,7 +51,7 @@
 
 @media only screen and (max-width: 720px) {
 
-    .work-card{
+    .education-card{
         width: 100%;
     }
 }

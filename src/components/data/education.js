@@ -4,7 +4,7 @@ export const EducationData=[
         graduation: "1/17/2022",
         degree: "Full-Stack Web Developer Certifcation",
         schoolLogo: "/images/ucbe-logo.jpg",
-        courses: "HTML, CSS, JavaScript, Git, APIs, Node.js, Express.js, SQL, NoSQL, ORM, MVC, PWA, React, and MERN"
+        courses: "MERN, JavaScript (ES6), CSS, HTML, Git, APIs, SQL, NoSQL, ORM, MVC, and PWA"
     },
     {
         school: "De Anza Community College",

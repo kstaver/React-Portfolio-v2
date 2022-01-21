@@ -1,19 +1,19 @@
 import React from 'react';
 import Separator from '../../commons/separator';
-import { WorkData } from '../../data/work';
-import WorkCard from './work-card';
-import "./work.css";
+import { EducationData } from '../../data/education';
+import EducationCard from './education-card';
+import "./education.css";
 
-function Work() {
-    const data = WorkData;
+function Education() {
+    const data = EducationData;
     return (
-        <div className='work'>
+        <div className='education'>
             <Separator />
-            <label className="section-title">Work and Education</label>
-            <div className='work-list'>
+            <label className="section-title">Education</label>
+            <div className='education-list'>
                 {data.map((item)=>{
                     return(
-                        <WorkCard item={item} />
+                        <EducationCard item={item} />
                     )                
                 })}
 
@@ -22,4 +22,4 @@ function Work() {
     )
 }
 
-export default Work;
+export default Education;
