@@ -42,6 +42,10 @@ export const SkillsData=[
             {
                 name: "MongoDB",
                 image: "/images/mongodb-64.png"
+            },
+            {
+                name: "Express",
+                image: "/images/express.png"
             }
         ]
     }
