@@ -1,24 +1,24 @@
 import React from 'react';
-import './work-card.css';
+import './education-card.css';
 
-function WorkCard({item}) {
+function EducationCard({item}) {
     return (
-        <div className='work-card'>
-            <img src={item.companyLogo} className='work-logo' alt="work logo"/>
-            <div className='work-info'>
-                <label className='company-name'>{item.company}</label>
+        <div className='education-card'>
+            <img src={item.schoolLogo} className='education-logo' alt="education logo"/>
+            <div className='education-info'>
+                <label className='school-name'>{item.school}</label>
                 <div>
-                    <label className='position'>{item.designation}</label>
+                    <label className='degree-name'>{item.degree}</label>
                 </div>
-                <div className='work-dates'>
-                    <label>{item.dateJoined}</label> - <label>{item.dateEnd}</label>
+                <div className='graduation-date'>
+                    <label>{item.graduation}</label>
                 </div>
-                <div className='work-description'>
-                    <p>{item.work}</p>
+                <div className='courses-taken'>
+                    <p>{item.courses}</p>
                 </div>
         </div>
     </div>
     )
 };
 
-export default WorkCard;
+export default EducationCard;
