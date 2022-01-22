@@ -1,6 +1,6 @@
 import React from 'react';
-import Separator from '../../commons/separator';
-import SocialContact from '../../commons/social-contact';
+import Separator from '../components/commons/separator';
+import SocialContact from '../components/commons/social-contact';
 import './contact.css'
 import resume from '../../../assets/Kendra Staver - Resume.docx';
 import downloadImage from "../../../assets/images/download-45.png";
