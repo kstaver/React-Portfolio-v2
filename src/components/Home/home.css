@@ -11,12 +11,18 @@ html {
 
 @media only screen and (max-width: 1024px){
     .home{
-        width: 90%
+        width: 100%
     }
 }
 
 @media only screen and (max-width: 512px){
     .home{
         width: 100%
+    }
+}
+
+@media only screen and (min-width: 512px) and (max-width: 1024px){
+    .home{
+        width: 100%;
     }
 }

@@ -36,14 +36,14 @@
     margin-bottom: 4px;
 }
 
-.project-links a{
-    text-decoration: none;
-    color: white;
-}
-
 .project-links{
     margin-top: 6px;
     display: flex;
+}
+
+.project-links a{
+    text-decoration: none;
+    color: white;
 }
 
 .link-button{
