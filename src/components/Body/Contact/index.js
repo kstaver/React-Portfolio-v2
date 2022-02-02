@@ -1,17 +1,43 @@
 import React from 'react';
 import Separator from '../../commons/separator';
+import { FaPhoneAlt } from "react-icons/fa";
+import { FaEnvelope } from "react-icons/fa";
 import SocialContact from '../../commons/social-contact';
-import './contact.css'
-import resume from '../../../assets/Kendra Staver - Resume.docx';
-import downloadImage from "../../../assets/images/download-45.png";
+import './Contact.module.scss';
 
 function Contact() {
     return ( 
         <div className='contact'>
             <Separator />
-            <label className='section-title'>Contact</label>
             <div className='contact-container'>
-                <div className='contact-left'>
+                <div className='contact-info'>
+                    <h4>
+                        Contact Information
+                    </h4>
+                    <p>Text</p>
+                    <div className='icon-text'>
+                        <FaPhoneAlt />                                 
+                        <span>+1(408)431-2895</span>
+                    </div>
+                    <div className='icon-text'>
+                        <FaEnvelope />
+                        <span>staverkendra@gmail.com</span>
+                    </div>
+                    <div className='social-media'>
+                        <a href="#" className='icon-circle'>
+                            <i className='icon'></i>
+                        </a>
+                    </div>
+                </div>
+                <form></form>
+        </div>
+
+
+
+
+
+
+               {/*<div className='contact-left'>
                     <p>Want to say hello? Feel free to contact me on any of the following platforms. My resume is also available for download.</p>
                     <SocialContact />
                 </div>
@@ -21,8 +47,8 @@ function Contact() {
                         Download Resume
                     </a>
                 </div>
-            </div>
-        </div>
+    </div>*/}
+    </div>
     )
 }
 
