@@ -1,9 +1,13 @@
 import React from 'react';
+import './footer.css';
 
 function Footer() {
     return (
-        <div>
-            This is Footer
+        <div className='footer-container'>
+            <div className='footer-separator'></div>
+            <div className='footer-text'>
+                 &copy; 2022 Kendra Staver
+            </div>
         </div>
     )
 }

@@ -1,5 +1,4 @@
 import React from 'react';
-import SocialContact from '../../commons/social-contact';
 import './about.css';
 
 function About() {
@@ -17,7 +16,6 @@ function About() {
                     <img src={require(process.env.PUBLIC_URL + "../../../assets/images/selfie-three.png")} className="picture" alt="selfie" />
                 </div>
             </div>
-        <SocialContact />
         </div>
     )
 }
