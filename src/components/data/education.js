@@ -4,7 +4,7 @@ export const EducationData=[
         graduation: "1/17/2022",
         degree: "Full-Stack Web Developer Certifcation",
         schoolLogo: "/images/ucbe-logo.jpg",
-        courses: "MERN, JavaScript (ES6), CSS, HTML, Git, APIs, SQL, NoSQL, ORM, MVC, and PWA"
+        courses: "MERN, JavaScript, CSS, HTML, Git, APIs, MySQL, NoSQL, ORM, MVC, and PWA"
     },
     {
         school: "De Anza Community College",
@@ -18,13 +18,13 @@ export const EducationData=[
         graduation: "3/25/2016",
         degree: "Associates in Arts for Enterprise Security Professional",
         schoolLogo: "/images/de-anza.png",
-        courses: "weqew"
+        courses: "Ethical Hacking, Network Security, Windows 7 Administration, Internet Concepts and TCP/IP Protocols, and Data Communication and Networking"
     },
     {
         school: "University of California, Santa Cruz",
         graduation: "12/12/2013",
-        degree: "Bachelors of Arts for Mathematics (Pure)",
+        degree: "Bachelors of Arts for Mathematics (Pure), Minor in S.T.E.M. Education",
         schoolLogo: "/images/ucsc-logo.jpg",
-        courses: "Minor in S.T.E.M. Education and CALTeach Internship"
+        courses: "Linear Algebra, Discrete Mathematics, Abstract Algebra, Statistics, Calculus, Vector Calculus, Euclidean & Non-Euclidean Geometry, Number Theory, and Complex & Real Analysis"
     }
 ]
