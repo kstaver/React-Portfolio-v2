@@ -44,3 +44,13 @@
     color:white;
     display: flex;
 }
+
+.button{
+    background-color: #7b2cbf;
+    border-radius: 5px;
+    align-items: center;
+    justify-content: center;
+    width: 81px;
+    display: flex;
+    flex-direction: column;
+}

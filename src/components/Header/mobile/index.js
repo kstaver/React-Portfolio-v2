@@ -1,5 +1,22 @@
 import React from 'react';
-import './mobile.css'
+import './mobile.css';
+import saveFile from "../saveFile";
+import styled from "styled-components";
+import 'bootstrap/dist/css/bootstrap.min.css';
+
+const Button = styled.button`
+    background: hsla(266, 13%, 11%, 1);
+    background: radial-gradient(circle, hsla(266, 13%, 11%, 1) 0%, hsla(272, 91%, 18%, 1) 100%);
+    background: -moz-radial-gradient(circle, hsla(266, 13%, 11%, 1) 0%, hsla(272, 91%, 18%, 1) 100%); 
+    background: -webkit-radial-gradient(circle, hsla(266, 13%, 11%, 1) 0%, hsla(272, 91%, 18%, 1) 100%);
+    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#1B181F", endColorstr="#320459", GradientType=1 );
+
+    font-size: 24px;
+    color: white;
+    border: none;
+    font-weight: 500;
+    padding-left: 0px;
+`;
 
 function Mobile({ isOpen, setIsOpen }) {
     return (
@@ -30,7 +47,8 @@ function Mobile({ isOpen, setIsOpen }) {
                 </div>
                 <div className="mobile-option">
                     <a href="#resume">
-                    <img src={process.env.PUBLIC_URL + '/images/resume-24.png'} alt="icon" className='option-icon' />Resume
+                        <img src={process.env.PUBLIC_URL + '/images/resume-24.png'} alt="icon" className='option-icon' />               
+                        <Button onClick={saveFile}>Resume</Button>
                     </a>
                 </div>
             </div>
