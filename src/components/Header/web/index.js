@@ -24,6 +24,11 @@ function Web() {
                 <img src={process.env.PUBLIC_URL + '/images/contact-icon-24.png'} alt="icon" className='option-icon' />Contact
                 </a>
             </div>
+            <div className="web-option">
+                <a href="#resume">
+                <img src={process.env.PUBLIC_URL + '/images/resume-24.png'} alt="icon" className='option-icon' />Resume
+                </a>
+            </div>
         </div>
     )
 }

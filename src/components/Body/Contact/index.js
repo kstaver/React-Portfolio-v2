@@ -51,7 +51,7 @@ function Contact() {
                         </div>
                     </div>
                 <div className='download'>
-                    <button className='resume-btn'>Resume</button>
+                    <button className='dowload a'>Resume</button>
                 </div>
                 </div>
             </div>
