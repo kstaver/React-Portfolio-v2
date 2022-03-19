@@ -15,7 +15,7 @@ export const ProjectData=[
         tags: ["React", "MongoDB", "CSS3", "JavaScript", "HTML5"],
         demo: "https://youtu.be/N2pCil_Sdf4",
         github: "https://github.com/kstaver/Book-Of-Faces",
-        image: "/images/culinary.png"
+        image: "/images/book-of-faces.png"
     },
     {
         id: 3,
@@ -24,6 +24,6 @@ export const ProjectData=[
         tags: ["React", "Node", "Heroku", "CSS3", "MongoDB" ,"JavaScript", "Express", "Apollo GraphQL"],
         demo: "https://google-book-search-v2.herokuapp.com/",
         github: "https://github.com/kstaver/Google-Book-Search",
-        image: "/images/pet-panel.png"
+        image: "/images/google-book-search.png"
     }
 ];
