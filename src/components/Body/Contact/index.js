@@ -50,9 +50,6 @@ function Contact() {
                             </form>
                         </div>
                     </div>
-                <div className='download'>
-                    <button className='resume-btn'>Resume</button>
-                </div>
                 </div>
             </div>
         </div>
