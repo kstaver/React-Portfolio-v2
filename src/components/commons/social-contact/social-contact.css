@@ -4,9 +4,9 @@
     align-items: center;
     position: relative;
     min-height: 10vh;
-    background: #353435;
+    background: #000;
     max-width: fit-content;
-    padding-top: 15px;
+    padding-top: 20px;
 }
 
 .social-icon-div{

@@ -1,21 +1,35 @@
 import React from 'react';
 import './mobile.css';
-import saveFile from "../saveFile";
 import styled from "styled-components";
 import 'bootstrap/dist/css/bootstrap.min.css';
+import resumePDF from "../../../assets/Kendra Staver-Resume.pdf";
 
-const Button = styled.button`
-    background: hsla(266, 13%, 11%, 1);
-    background: radial-gradient(circle, hsla(266, 13%, 11%, 1) 0%, hsla(272, 91%, 18%, 1) 100%);
-    background: -moz-radial-gradient(circle, hsla(266, 13%, 11%, 1) 0%, hsla(272, 91%, 18%, 1) 100%); 
-    background: -webkit-radial-gradient(circle, hsla(266, 13%, 11%, 1) 0%, hsla(272, 91%, 18%, 1) 100%);
-    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#1B181F", endColorstr="#320459", GradientType=1 );
+const Button = styled.a``;
 
-    font-size: 24px;
-    color: white;
-    border: none;
-    font-weight: 500;
-    padding-left: 0px;
+const StyledButton = styled(Button)`
+    box-shadow:inset 0px 1px 0px 0px #e184f3;
+    background:linear-gradient(to bottom, #c123de 5%, #a20dbd 100%);
+    background-color:#c123de;
+    border-radius:6px;
+    border:1px solid #a511c0;
+    display:inline-block;
+    cursor:pointer;
+    color:#ffffff;
+    font-family:Arial;
+    font-size:20px;
+    font-weight:bold;
+    padding:2px 4px;
+    text-decoration:none;
+    text-shadow:0px 1px 0px #9b14b3;
+
+    &:hover {
+        background:linear-gradient(to bottom, #a20dbd 5%, #c123de 100%);
+        background-color:#a20dbd;
+    }
+    &:active {
+        position:relative;
+        top:1px;
+    }
 `;
 
 function Mobile({ isOpen, setIsOpen }) {
@@ -45,12 +59,11 @@ function Mobile({ isOpen, setIsOpen }) {
                     <img src={process.env.PUBLIC_URL + '/images/contact-icon-24.png'} alt="icon" className='option-icon' />Contact
                     </a>
                 </div>
-                <div className="mobile-option">
-                    <a href="#resume">
-                        <img src={process.env.PUBLIC_URL + '/images/resume-24.png'} alt="icon" className='option-icon' />               
-                        <Button onClick={saveFile}>Resume</Button>
+                <div className="web-option">
+                    <a href={resumePDF} without rel="noopener no referrer" target="_blank">
+                        <StyledButton>Resume</StyledButton>
                     </a>
-                </div>
+            </div>
             </div>
         </div>
     )

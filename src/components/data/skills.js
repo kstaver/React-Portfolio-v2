@@ -46,6 +46,10 @@ export const SkillsData=[
             {
                 name: "Express",
                 image: "/images/express.png"
+            },
+            {
+                name: "Apollo GQL",
+                image: "/images/apollo-64.png"
             }
         ]
     }
