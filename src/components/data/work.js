@@ -5,7 +5,7 @@ export const WorkData=[
         dateJoined: "1/1/2019",
         dateEnd: "3/17/2019",
         companyLogo: "/images/stanford-logo.png",
-        work: "My contract position at Stanford involved provided both phone and chat support to all staff and students at Stanford. If technical support could not be given over the phone or via chat, then I was responsible for dispatching the field teams to the user's location.",
+        work: "First line of contact for technical support for Stanford University and SLAC. Provided exceptional customer service over the phone and via email. Scored only 4’s and 5’s out of 5 on customer surveys. Maintained strong communication between the field team and call center to ensure that tickets were resolved in both an efficient and timely manner.",
     },
     {
         company:"Katerra",
@@ -13,7 +13,7 @@ export const WorkData=[
         dateJoined: "4/1/2018",
         dateEnd: "7/17/2018",
         companyLogo: "/images/katerra-logo.png",
-        work: "As a helpdesk specialist at Katerra, I provided onsite and remote technical support to executives at Katerra. I was also in charge of managing and provisioning hardware to all active Katerra sites within the United States.",
+        work: "Started as the single technical support specialist at the main hub for a major worldwide construction company, but due to a sudden departure of a staff member, had to adapt to take on a new role while continuing the role of a technical support specialist. Learned how to become flexible by both monitoring the ticketing system, working on tickets, creating purchase orders for all locations, communicating with vendors, shipping hardware, and managing the main IT inventory spreadsheet.",
     },
     {
         company:"Berkshire Hathaway Homestates Companies",
@@ -21,6 +21,6 @@ export const WorkData=[
         dateJoined: "1/1/2017",
         dateEnd: "2/1/2018",
         companyLogo: "/images/bhhc-logo.jpg",
-        work: "As a technical support specialist at Berkshire I was reposnible for a myriad of both technical support issues and user administration. Due to my experience using ADUC and Exchange Management Console, I was given the responsibility to lead my team in a massive project. This project involved preparing the domain containing over 3,000 users and objects over to a new domain. This preparation included both reorganizing the domain structure and removing inactive objects by using PowerShell scripts that I taught to my team members.",
+        work: "Collaborated with other departments on resolving tickets and other company wide problems as they came up. Identified security threats and vulnerabilities in the domain and successfully led a team through a major domain restructure. Designed PowerShell scripts to help expedite the process of removing objects in ADUC that were no longer in service.",
     }
 ];
