@@ -1,28 +1,43 @@
 import React from 'react';
 import "./web.css";
-import saveFile from "../saveFile";
 import styled from "styled-components";
-//import Button from 'react-bootstrap/Button';
-import 'bootstrap/dist/css/bootstrap.min.css';
+import resumePDF from  "../../../assets/Kendra Staver-Resume.pdf";
 
-const Button1 = styled.button`
-    -moz-box-shadow:inset 0px 1px 0px 0px #efdcfb;
-    -webkit-box-shadow:inset 0px 1px 0px 0px #efdcfb;
-    box-shadow:inset 0px 1px 0px 0px #efdcfb;
-    background:linear-gradient(to bottom, #dfbdfa 5%, #bc80ea 100%);
-    background-color:#dfbdfa;
+const Button = styled.a``;
+
+const StyledButton = styled(Button)`
+    box-shadow:inset 0px 1px 0px 0px #e184f3;
+    background:linear-gradient(to bottom, #c123de 5%, #a20dbd 100%);
+    background-color:#c123de;
     border-radius:6px;
-    border:1px solid #c584f3;
+    border:1px solid #a511c0;
     display:inline-block;
     cursor:pointer;
     color:#ffffff;
     font-family:Arial;
     font-size:20px;
     font-weight:bold;
-    padding:1px 6px;
+    padding:2px 4px;
     text-decoration:none;
-    text-shadow:0px 1px 0px #9752cc;
+    text-shadow:0px 1px 0px #9b14b3;
+
+    &:hover {
+        background:linear-gradient(to bottom, #a20dbd 5%, #c123de 100%);
+        background-color:#a20dbd;
+    }
+    &:active {
+        position:relative;
+        top:1px;
+    }
 `;
+
+/*function changeBackground(e){
+    e.target.style.background = '#a20dbd 5%';
+}
+
+function revertBackground(e){
+    e.target.style.background = 'background:linear-gradient(to bottom, #c123de 5%, #a20dbd 100%)';
+}*/
 
 function Web() {
     return (
@@ -48,8 +63,8 @@ function Web() {
                 </a>
             </div>
             <div className="web-option">
-                <a href="#resume">
-                    <Button1 onClick={saveFile}>Resume</Button1>
+                <a href={resumePDF} without rel="noopener no referrer" target="_blank">
+                    <StyledButton>Resume</StyledButton>
                 </a>
             </div>
         </div>
@@ -57,11 +72,3 @@ function Web() {
 }
 
 export default Web;
-
-
-/*background: hsla(266, 13%, 11%, 1);
-    background: radial-gradient(circle, hsla(266, 13%, 11%, 1) 0%, hsla(272, 91%, 18%, 1) 100%);
-    background: -moz-radial-gradient(circle, hsla(266, 13%, 11%, 1) 0%, hsla(272, 91%, 18%, 1) 100%); 
-    background: -webkit-radial-gradient(circle, hsla(266, 13%, 11%, 1) 0%, hsla(272, 91%, 18%, 1) 100%);
-    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#1B181F", endColorstr="#320459", GradientType=1 );
-    */
