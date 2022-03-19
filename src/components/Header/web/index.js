@@ -1,7 +1,7 @@
 import React from 'react';
 import "./web.css";
 import styled from "styled-components";
-import resumePDF from  "../../../assets/Kendra Staver-Resume.pdf";
+import resumePDF from "../../../assets/Kendra Staver-Resume.pdf";
 
 const Button = styled.a``;
 
@@ -30,14 +30,6 @@ const StyledButton = styled(Button)`
         top:1px;
     }
 `;
-
-/*function changeBackground(e){
-    e.target.style.background = '#a20dbd 5%';
-}
-
-function revertBackground(e){
-    e.target.style.background = 'background:linear-gradient(to bottom, #c123de 5%, #a20dbd 100%)';
-}*/
 
 function Web() {
     return (
