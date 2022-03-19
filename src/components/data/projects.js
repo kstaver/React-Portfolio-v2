@@ -9,7 +9,7 @@ export const ProjectData=[
         image: "/images/brewfinder.png"
     },
     {
-        id: 1,
+        id: 2,
         title: "Book of Faces",
         about: "An example of a back end for a social networking API. This API stores users, posts, comments, friends, and reactions. The stored data can then be edited or deleted.",
         tags: ["React", "MongoDB", "CSS3", "JavaScript", "HTML5"],
@@ -18,15 +18,12 @@ export const ProjectData=[
         image: "/images/culinary.png"
     },
     {
-
-    },
-    {
         id: 3,
-        title: "Pet Panel",
-        about: "Pet Panel is an forum based discussion webpage. Users are able to submit their own posts to categories, and comment on the posts of other users. In the future, users will be able to use the Pet Finder API to search for animal shelters in their area.",
-        tags: ["React", "Node", "Heroku", "CSS", "JavaScript", "HTML"],
-        demo: "https://project-pet-panel.herokuapp.com/",
-        github: "https://github.com/asecord92/pet-panel",
+        title: "Google Book Search",
+        about: "A full stack MERN application that allows users to search for books using the Google Books API. Any user can search for books based on titles, authors, or keywords. To save the books to a curated list the user would have to create an account and sign in.",
+        tags: ["React", "Node", "Heroku", "CSS3", "MongoDB" ,"JavaScript", "Express", "Apollo GraphQL"],
+        demo: "https://google-book-search-v2.herokuapp.com/",
+        github: "https://github.com/kstaver/Google-Book-Search",
         image: "/images/pet-panel.png"
     }
 ];
