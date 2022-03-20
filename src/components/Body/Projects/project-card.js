@@ -7,17 +7,18 @@ function ProjectCard(projects) {
             <div className='project-info'>
                 <label className='project-title'>{projects.project.title}</label>
                 <div className='project-links'>
-                    {projects.demo&& (
-                        <a className='project-link' href={projects.project.demo}>
+                    {projects.project.demo&& (
+                        <a className='project-link' href={projects.project.demo} without rel="noopener no referrer" target="_blank">
                             <div className='link-button'>
-                                <img src="/images/demo-icon-2.png" className="demo" alt="icon" />Demo
+                                <img src="/images/globe.png"></img>&nbsp;Demo
                             </div>
                         </a>
                     )}
-                    {projects.github&&(
-                        <a className='project-link' href={projects.project.github}>
+
+                    {projects.project.github&&(
+                        <a className='project-link' href={projects.project.github} without rel="noopener no referrer" target="_blank">
                             <div className='link-button'>
-                            <img src="/images/github-icon.png" className="small-github" alt="icon2" /> Github
+                                <i class="devicon-github-original"></i>&nbsp;Github
                             </div>
                         </a>
                     )}
