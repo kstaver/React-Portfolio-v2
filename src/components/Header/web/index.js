@@ -55,7 +55,7 @@ function Web() {
                 </a>
             </div>
             <div className="web-option">
-                <a href={resumePDF} without rel="noopener no referrer" target="_blank">
+                <a href={resumePDF} rel="noopener noreferrer" target="_blank">
                     <StyledButton>Resume</StyledButton>
                 </a>
             </div>

@@ -1,38 +1,38 @@
 import React from 'react';
 import './project-card.css';
 
-function ProjectCard(projects) {
+function ProjectCard(mappedData) {
     return (
         <div className='project-card'>
             <div className='project-info'>
-                <label className='project-title'>{projects.project.title}</label>
+                <label className='project-title'>{mappedData.project.title}</label>
                 <div className='project-links'>
-                    {projects.project.demo&& (
-                        <a className='project-link' href={projects.project.demo} without rel="noopener no referrer" target="_blank">
+                    {mappedData.project.demo&& (
+                        <a className='project-link' href={mappedData.project.demo} rel="noopener noreferrer" target="_blank">
                             <div className='link-button'>
-                                <img src="/images/globe.png"></img>&nbsp;Demo
+                                <img src="/images/globe.png" alt="globe"></img>&nbsp;Demo
                             </div>
                         </a>
                     )}
 
-                    {projects.project.github&&(
-                        <a className='project-link' href={projects.project.github} without rel="noopener no referrer" target="_blank">
+                    {mappedData.project.github&&(
+                        <a className='project-link' href={mappedData.project.github} rel="noopener noreferrer" target="_blank">
                             <div className='link-button'>
-                                <i class="devicon-github-original"></i>&nbsp;Github
+                                <i className="devicon-github-original"></i>&nbsp;Github
                             </div>
                         </a>
                     )}
                 </div>
                 <p>
-                    {projects.project.about}
+                    {mappedData.project.about}
                 </p>
                 <div className='project-tags'>
-                    {projects.project.tags.map((tag) =>{
+                    {mappedData.project.tags.map((tag) =>{
                         return <label className='tag'>{tag}</label>    
                     })}
                 </div>
             </div>
-            <img src={projects.project.image} className='project-photo' alt="project" />
+            <img src={mappedData.project.image} className='project-photo' alt="project" />
         </div>
     )
 }
