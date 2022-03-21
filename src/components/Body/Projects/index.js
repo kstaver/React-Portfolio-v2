@@ -1,6 +1,6 @@
 import React from 'react';
 import Separator from '../../commons/separator';
-import { ProjectData } from '../../data/projects';
+import { ProjectData } from '../../data/project';
 import ProjectCard from './project-card';
 import './projects.css';
 
@@ -12,7 +12,7 @@ function Projects() {
             <label className='section-title'>Projects</label>
             <div>
                 {data.map((project)=>{
-                    return <ProjectCard project={project} />
+                    return <ProjectCard mappedData={project} />
                 })}
             </div>
         </div>
