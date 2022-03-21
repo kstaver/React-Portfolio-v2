@@ -10,7 +10,7 @@ function ProjectCard(projects) {
                     {projects.project.demo&& (
                         <a className='project-link' href={projects.project.demo} rel="noopener noreferrer" target="_blank">
                             <div className='link-button'>
-                                <img src="/images/globe.png"></img>&nbsp;Demo
+                                <img src="/images/globe.png" alt="globe"></img>&nbsp;Demo
                             </div>
                         </a>
                     )}
@@ -18,7 +18,7 @@ function ProjectCard(projects) {
                     {projects.project.github&&(
                         <a className='project-link' href={projects.project.github} rel="noopener noreferrer" target="_blank">
                             <div className='link-button'>
-                                <i class="devicon-github-original"></i>&nbsp;Github
+                                <i className="devicon-github-original"></i>&nbsp;Github
                             </div>
                         </a>
                     )}

@@ -1,3 +1,7 @@
+import brewFinder from "../../assets/images/brewfinder.png";
+import bookFaces from "../../assets/images/book-of-faces.png";
+import googleBook from "../../assets/images/google-book-search.png";
+
 export const ProjectData=[
     {
         id: 1,
@@ -6,7 +10,7 @@ export const ProjectData=[
         tags: ["CSS", "JavaScript", "HTML"],
         demo: "https://asecord92.github.io/brew-finder/",
         github: "https://github.com/asecord92/brew-finder",
-        image: "/public/images/brewfinder.png",
+        image: {brewFinder},
     },
     {
         id: 2,
@@ -15,7 +19,7 @@ export const ProjectData=[
         tags: ["React", "MongoDB", "CSS3", "JavaScript", "HTML5"],
         demo: "https://youtu.be/N2pCil_Sdf4",
         github: "https://github.com/kstaver/Book-Of-Faces",
-        image: "/public/images/book-of-faces.png",
+        image: {bookFaces},
     },
     {
         id: 3,
@@ -24,6 +28,6 @@ export const ProjectData=[
         tags: ["React", "Node", "Heroku", "CSS3", "MongoDB" ,"JavaScript", "Express", "Apollo GraphQL"],
         demo: "https://google-book-search-v2.herokuapp.com/",
         github: "https://github.com/kstaver/Google-Book-Search",
-        image: "/public/images/google-book-search.png",
+        image: {googleBook},
     }
 ];
