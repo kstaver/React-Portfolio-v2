@@ -6,7 +6,7 @@ export const ProjectData=[
         tags: ["CSS", "JavaScript", "HTML"],
         demo: "https://asecord92.github.io/brew-finder/",
         github: "https://github.com/asecord92/brew-finder",
-        image: "/images/brewfinder.png"
+        image: "public/images/brewfinder.png"
     },
     {
         id: 2,
@@ -15,7 +15,7 @@ export const ProjectData=[
         tags: ["React", "MongoDB", "CSS3", "JavaScript", "HTML5"],
         demo: "https://youtu.be/N2pCil_Sdf4",
         github: "https://github.com/kstaver/Book-Of-Faces",
-        image: "/images/book-of-faces.png"
+        image: "public/images/book-of-faces.png"
     },
     {
         id: 3,
@@ -24,6 +24,6 @@ export const ProjectData=[
         tags: ["React", "Node", "Heroku", "CSS3", "MongoDB" ,"JavaScript", "Express", "Apollo GraphQL"],
         demo: "https://google-book-search-v2.herokuapp.com/",
         github: "https://github.com/kstaver/Google-Book-Search",
-        image: "/images/google-book-search.png"
+        image: "public/images/google-book-search.png"
     }
 ];
