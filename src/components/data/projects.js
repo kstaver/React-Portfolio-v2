@@ -15,7 +15,7 @@ export const ProjectData=[
         tags: ["React", "MongoDB", "CSS3", "JavaScript", "HTML5"],
         demo: "https://youtu.be/N2pCil_Sdf4",
         github: "https://github.com/kstaver/Book-Of-Faces",
-        image: "public/images/book-of-faces.png"
+        image: "/images/book-of-faces.png"
     },
     {
         id: 3,
