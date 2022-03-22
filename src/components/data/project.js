@@ -24,6 +24,6 @@ export const ProjectData=[
         tags: ["React", "Node", "Heroku", "CSS3", "MongoDB" ,"JavaScript", "Express", "Apollo GraphQL"],
         demo: "https://google-book-search-v2.herokuapp.com/",
         github: "https://github.com/kstaver/Google-Book-Search",
-        image: "/images/google-book-search.png",
+        image: "https://i.ibb.co/VJBmwyg/google-book-search.png",
     }
 ];
