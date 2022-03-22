@@ -1,22 +1,22 @@
 import React from 'react';
 import './project-card.css';
 
-function ProjectCard(projects) {
+function ProjectCard({project}) {
     return (
         <div className='project-card'>
             <div className='project-info'>
-                <label className='project-title'>{projects.project.title}</label>
+                <label className='project-title'>{project.title}</label>
                 <div className='project-links'>
-                    {projects.project.demo&& (
-                        <a className='project-link' href={projects.project.demo} rel="noopener noreferrer" target="_blank">
+                    {project.demo&& (
+                        <a className='project-link' href={project.demo} key={project.platform} rel="noopener noreferrer" target="_blank">
                             <div className='link-button'>
                                 <img src="/images/globe.png" alt="globe"></img>&nbsp;Demo
                             </div>
                         </a>
                     )}
 
-                    {projects.project.github&&(
-                        <a className='project-link' href={projects.project.github} rel="noopener noreferrer" target="_blank">
+                    {project.github&&(
+                        <a className='project-link' href={project.github} key={project.platform} rel="noopener noreferrer" target="_blank">
                             <div className='link-button'>
                                 <i className="devicon-github-original"></i>&nbsp;Github
                             </div>
@@ -24,15 +24,15 @@ function ProjectCard(projects) {
                     )}
                 </div>
                 <p>
-                    {projects.project.about}
+                    {project.about}
                 </p>
                 <div className='project-tags'>
-                    {projects.project.tags.map((tag) =>{
+                    {project.tags.map((tag) =>{
                         return <label className='tag'>{tag}</label>    
                     })}
                 </div>
             </div>
-            <img src={projects.project.image} className='project-photo' alt="project" />
+            <img src={project.image} className='project-photo' alt="project" />
         </div>
     )
 }
