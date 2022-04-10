@@ -4,6 +4,8 @@
 
   ## Description
   This website is my professional portfolio! I created it using React and JavaScript. I plan on updating my portfolio frequently to make it more detailed and up to date.
+  
+  ![image](https://user-images.githubusercontent.com/32945233/162601838-008c0f9a-488d-473c-a8d8-450205e91121.png)
 
   ## Table of Contents
   - [Description](#description)
