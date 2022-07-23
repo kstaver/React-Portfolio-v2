@@ -1,5 +1,5 @@
 import React from 'react';
-import resume from '../../assets/Kendra Staver - Resume.docx';
+import resume from '../../assets/Kendra Staver - Resume.pdf';
 import downloadImage from "../../assets/images/download-45.png";
 import Separator from '../../components/commons/separator';
 import SocialContact from '../../components/commons/social-contact';
