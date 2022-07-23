@@ -1,7 +1,7 @@
 import React from 'react';
 import "./web.css";
 import styled from "styled-components";
-import resumePDF from "../../../assets/Kendra Staver-Resume.pdf";
+import resumePDF from "../../../assets/Kendra_Staver.docx";
 
 const Button = styled.a``;
 

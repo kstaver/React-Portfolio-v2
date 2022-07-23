@@ -2,7 +2,7 @@ import React from 'react';
 import './mobile.css';
 import styled from "styled-components";
 import 'bootstrap/dist/css/bootstrap.min.css';
-import resumePDF from "../../../assets/Kendra Staver-Resume.pdf";
+import resumePDF from "../../../assets/Kendra_Staver.docx";
 
 const Button = styled.a``;
 
