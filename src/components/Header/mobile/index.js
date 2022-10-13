@@ -60,7 +60,7 @@ function Mobile({ isOpen, setIsOpen }) {
                     </a>
                 </div>
                 <div className="web-option">
-                    <a href={resumePDF} without rel="noopener no referrer" target="_blank">
+                    <a href={resumePDF}  target="_blank" without rel="noopener no referrer">
                         <StyledButton>Resume</StyledButton>
                     </a>
             </div>
