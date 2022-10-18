@@ -1,5 +1,13 @@
 export const WorkData=[
     {
+        company:"Trilogy Education - 2U",
+        designation:"Teacher's Assistant",
+        dateJoined: "9/1/2022",
+        dateEnd: "Present",
+        companyLogo: "/images/trilogy-logo.png",
+        work: "Assist the instructor with technical and administrative tasks. Support students’ mastery of learning objectives in an effective and engaging manner during class. Engage with students via the class’ slack domain and within office hours. Ensure all intellectual, material, student engagement, and classroom management preparation is completed prior to class sessions in order to deliver an effective class experience."
+    },
+    {
         company:"Stanford",
         designation:"Technical Support Specialist 1",
         dateJoined: "1/1/2019",
