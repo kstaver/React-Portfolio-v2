@@ -11,7 +11,7 @@ function Contact() {
     function sendEmail(e){
       e.preventDefault();
   
-      emailjs.sendForm('service_mu4hrga', 'template_6zhmpcc', e.target, 'HbvvfIYwt8Qwv1cIE')
+      emailjs.sendForm('service_k5w4kiq', 'template_6zhmpcc', e.target, 'HbvvfIYwt8Qwv1cIE')
         .then((result) => {
             console.log(result.text);
         }, (error) => {
@@ -68,24 +68,3 @@ function Contact() {
 }
 
 export default Contact;
-
-/*                            <form>
-                                <label htmlFor="fname">First Name</label>
-                                <input type="text" id="fname" name="firstname" placeholder="Your name.." />
-                                <label htmlFor="lname">Last Name</label>
-                                <input
-                                    type="text"
-                                    id="lname"
-                                    name="lastname"
-                                    placeholder="Your last name.."
-                                />
-                                <label htmlFor="subject">Subject</label>
-                                <textarea
-                                    id="subject"
-                                    name="subject"
-                                    placeholder="Write something.."
-                                    style={{ height: 100 }}
-                                    defaultValue={""}
-                                />
-                                <input type="submit" defaultValue="Submit" />
-                            </form>*/
